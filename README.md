@@ -23,6 +23,10 @@ cp .env.example .env
 docker compose up --build
 ```
 
+## Documentation
+
+Project documentation has been grouped in the [`docs/`](docs/) folder, including the PRD, TRD, UI/UX brief, application flow, schema notes, and references.
+
 ## Environment
 
 See `.env.example` for the required runtime settings. Production should set a strong `SECRET_KEY`, `DEBUG=False`, PostgreSQL `DATABASE_URL`, secure host names, and trusted CSRF origins.
