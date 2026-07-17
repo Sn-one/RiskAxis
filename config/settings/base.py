@@ -12,7 +12,7 @@ INSTALLED_APPS = [
     "django.contrib.admin", "django.contrib.auth", "django.contrib.contenttypes", "django.contrib.sessions", "django.contrib.messages", "django.contrib.staticfiles",
     "rest_framework", "riskaxis.core", "riskaxis.accounts", "riskaxis.organization", "riskaxis.objectives", "riskaxis.risk_universe", "riskaxis.risks",
     "riskaxis.documents", "riskaxis.controls", "riskaxis.assessments", "riskaxis.appetite", "riskaxis.treatments", "riskaxis.indicators",
-    "riskaxis.incidents", "riskaxis.reviews", "riskaxis.assurance", "riskaxis.dashboards",
+    "riskaxis.incidents", "riskaxis.reviews", "riskaxis.assurance", "riskaxis.graph", "riskaxis.dashboards",
 ]
 MIDDLEWARE = ["django.middleware.security.SecurityMiddleware", "whitenoise.middleware.WhiteNoiseMiddleware", "django.contrib.sessions.middleware.SessionMiddleware", "django.middleware.common.CommonMiddleware", "django.middleware.csrf.CsrfViewMiddleware", "django.contrib.auth.middleware.AuthenticationMiddleware", "django.contrib.messages.middleware.MessageMiddleware", "django.middleware.clickjacking.XFrameOptionsMiddleware"]
 ROOT_URLCONF = "config.urls"
